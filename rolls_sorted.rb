@@ -1,7 +1,7 @@
 
 sorted_roll = []
 
-10.times {sorted_roll << rand(6)+1 }
+10.times do sorted_roll << rand(6)+1 end
 
 sorted_roll = sorted_roll.sort
 
